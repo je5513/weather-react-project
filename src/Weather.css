@@ -30,9 +30,8 @@ body {
   border-radius: 25px;
 }
 
-.Weather button {
-  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
-  color: #fff;
+.button {
+  text-align: center;
   padding: 10px 30px;
   border-radius: 25px;
 }
