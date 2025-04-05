@@ -1,73 +1,86 @@
 body {
-  background-color: #f9f7fe;
+  background: linear-gradient(
+    109.6deg,
+    rgb(204, 228, 247) 11.2%,
+    rgb(237, 246, 250) 100.2%
+  );
 }
-
 .Weather {
-  margin: 50px 0 15px 0;
-  padding: 50px;
-  background-color: #272142;
-  color: #fff;
-  border-radius: 40px;
+  background-color: white;
+  border: 2px solid #dadde1;
+  border-radius: 15px;
+  box-shadow: 0 15px 25px rgba(24, 18, 37, 0.2);
+  color: #878787;
+  padding: 30px;
+  margin: 20px auto;
 }
 
 .Weather h1 {
-  font-size: 48px;
-  background-image: linear-gradient(
-    to right,
-    rgb(242, 112, 156),
-    rgb(255, 148, 114)
-  );
-  background-clip: text;
-  color: transparent;
-}
-
-.Weather form {
-  padding: 30px 0;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 44px;
+  margin: 20px 0 0 0;
+  color: #212121;
+  padding-bottom: 10px;
 }
 
 .Weather input {
-  padding: 10px 0 10px 30px;
+  padding: 10px 20px;
   border-radius: 25px;
 }
 
 .button {
-  text-align: center;
-  padding: 10px 30px;
-  border-radius: 25px;
-}
-
-.Weather h2 {
-  font-size: 38px;
+  background-color: #bbd7ed;
+  border: none;
 }
 
 .Weather ul {
+  margin-top: 30px;
+  display: block;
   padding: 0;
-  margin: 0;
 }
-
 .Weather li {
-  list-style: none;
+  display: flex;
+  text-align: right;
+  font-size: 16;
 }
 
 .Weather img {
-  height: 104px;
-  width: 104px;
-  margin-right: 20px;
+  margin: 20px 0px;
+  max-width: 100%;
+  height: 0 auto;
 }
 
-.temperature {
-  font-weight: 400;
-  font-size: 92px;
-  line-height: 92px;
+.Weather .temperature {
+  color: #212121;
+  margin-left: -60px;
+  font-size: 80px;
+  letter-spacing: -3px;
 }
 
 .unit {
+  color: #212121;
+  font-size: 20px;
+  font-weight: 400;
   position: relative;
-  top: -52px;
-  margin-left: 10px;
+  top: -32px;
+  line-height: 1;
 }
 
-.unit a {
+.Weather .unit a {
+  color: #064a9ebf;
+  font-weight: bold;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.3);
+}
+
+a {
+  color: #657894;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
 }
