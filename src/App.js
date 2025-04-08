@@ -8,14 +8,27 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="London" />
         <footer>
-          This project was coded by Jessica Shore and is
+          This project was coded by{" "}
+          <a href="https://github.com/je5513" target="_blank" rel="noreferrer">
+            {" "}
+            Jessica Shore{" "}
+          </a>{" "}
+          , open sourced on
           <a
             href="https://github.com/je5513/weather-react-project"
             target="_blank"
             rel="noreferrer"
           >
             {" "}
-            open sourced on GitHub{" "}
+            GitHub{" "}
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://gorgeous-raindrop-c985ef.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>
